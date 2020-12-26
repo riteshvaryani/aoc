@@ -1,6 +1,5 @@
-import sys
 inputset=set()
-with open('/Users/master/projects/aoc/2020/1/1.1/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/1/input.txt') as f:
     alllines=f.readlines()
     for input in alllines:
         intInput=int(input)
@@ -9,7 +8,3 @@ with open('/Users/master/projects/aoc/2020/1/1.1/input.txt') as f:
             print(str(i * intInput))
             exit()
         inputset.add(intInput)
-
-
-
-    
