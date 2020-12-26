@@ -18,7 +18,6 @@ def processPassport(passport):
             if not codeValue[1].endswith('cm') and not codeValue[1].endswith('in'):
                 return 0
             val=int(codeValue[1][0:len(codeValue[1])-2])
-            print(val)
             if codeValue[1].endswith('cm') and (val < 150 or val > 193):
                 return 0
             if codeValue[1].endswith('in') and (val < 59 or val > 76):
@@ -47,7 +46,6 @@ def processPassport(passport):
     if len(reqSplits) ==8:
         return 1
     return 0
-print(processPassport("byr:1989 ecl:brn pid:769582914 eyr:2026 cid:218 iyr:2020 hcl:#866857 hgt:184cm"))
 with open('/Users/master/projects/aoc/2020/4/input.txt') as f:
     lines=f.read().splitlines()
     currPassport=""
