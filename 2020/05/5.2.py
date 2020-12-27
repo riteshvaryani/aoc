@@ -8,7 +8,7 @@ def evalSeat(seatCode, h, lowerChar):
             l=m+1
     return l
 
-with open('/Users/master/projects/aoc/2020/5/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/05/input.txt') as f:
     lines=f.read().splitlines()
     seatIdList=[]
     for line in lines:

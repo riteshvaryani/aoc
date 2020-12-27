@@ -1,5 +1,5 @@
 inputset=set()
-with open('/Users/master/projects/aoc/2020/1/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/01/input.txt') as f:
     alllines=f.readlines()
    
 len = len(alllines)

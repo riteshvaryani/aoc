@@ -1,4 +1,4 @@
-with open('/Users/master/projects/aoc/2020/3/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/03/input.txt') as f:
     grid=f.read().splitlines()
     currrow=0
     currcol=0

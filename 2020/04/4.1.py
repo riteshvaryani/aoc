@@ -11,7 +11,7 @@ def processPassport(passport):
     if len(reqSplits) ==7 and 'cid' not in codeSet:
         return 1
     return 0
-with open('/Users/master/projects/aoc/2020/4/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/04/input.txt') as f:
     lines=f.read().splitlines()
     currPassport=""
     validPassports=0

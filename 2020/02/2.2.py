@@ -1,5 +1,5 @@
 valid=0
-with open('/Users/master/projects/aoc/2020/2/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/02/input.txt') as f:
     alllines=f.readlines()
     for input in alllines:
         inputSplits=input.split()

@@ -46,7 +46,7 @@ def processPassport(passport):
     if len(reqSplits) ==8:
         return 1
     return 0
-with open('/Users/master/projects/aoc/2020/4/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/04/input.txt') as f:
     lines=f.read().splitlines()
     currPassport=""
     validPassports=0

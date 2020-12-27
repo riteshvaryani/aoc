@@ -1,4 +1,4 @@
-with open('/Users/master/projects/aoc/2020/3/input.txt') as f:
+with open('/Users/master/projects/aoc/2020/03/input.txt') as f:
     grid=f.read().splitlines()
     rowLen=len(grid)
     colLen=len(grid[0])
