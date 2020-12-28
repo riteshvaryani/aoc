@@ -24,4 +24,3 @@ while(len(currentColorQ) >0):
             uniqueColors.add(i)
             currentColorQ.append(i)
 print(len(uniqueColors))
-print(uniqueColors)
